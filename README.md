@@ -5,7 +5,7 @@ URLyzer is a tool written in Golang that extracts words from URLs and generates 
 You can install URLyzer using the following command:
 
 ```bash
-go install -v github.com/alirezac0/urlyzer@latest
+GO111MODULE=off go get -v github.com/alirezac0/urlyzer/cmd/urlyzer
 ```
 
 
